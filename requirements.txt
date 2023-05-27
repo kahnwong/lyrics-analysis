@@ -1,2 +1,4 @@
+mutagen==1.46.0
 polars==0.17.15
 pydantic==1.10.7
+tqdm
