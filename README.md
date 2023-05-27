@@ -22,7 +22,7 @@ Updated version of <https://github.com/kahnwong/lyrics_visualization>
 ![word count box plot](images/word_count_box_plot.png)
 
 - Nightwish has a wide q4, since their lyrics contain a lot of spoken words.
-- Most bands are not on the "wordy" side, see Warkings and Ad Infinitum.
+- Most bands are on the "wordy" side, see Warkings and Ad Infinitum.
 
 ### Most common word
 

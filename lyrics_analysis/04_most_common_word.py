@@ -41,4 +41,5 @@ for index, i in enumerate(data):
     axs[index].bar(word_count.keys(), word_count.values())
     axs[index].set_title(i["artist"])
 
+fig.tight_layout()
 fig.savefig("images/most_common_word.png")
