@@ -7,7 +7,8 @@ Updated version of <https://github.com/kahnwong/lyrics_visualization>
 1. `make setup`
 2. Edit `lyrics_analysis/01_extract.py` to match your data source (this is what we'll use for actual analysis). See `lyrics_analysis\model\lyrics.py` for expected input format. Resulting file is located in `data/lyrics.json` in single-line JSON format.
 3. Run `python3 lyrics_analysis/02_process.py` to tokenize lyrics.
-4. Run `lyrics_analysis/03_analyze_word_count.py` to obtain a visuzliation.
+4. Run `python3 lyrics_analysis/03_analyze_word_count.py` to obtain a visualization.
+05. Run `python3 lyrics_analysis/04_most_common_word.py` to obtain a visualization.
 
 ## Findings
 
@@ -22,3 +23,9 @@ Updated version of <https://github.com/kahnwong/lyrics_visualization>
 
 - Nightwish has a wide q4, since their lyrics contain a lot of spoken words.
 - Most bands are not on the "wordy" side, see Warkings and Ad Infinitum.
+
+### Most common word
+
+![most common word](images/most_common_word.png)
+
+- Warkings does really love to fight. (It's in the name shhhh.)

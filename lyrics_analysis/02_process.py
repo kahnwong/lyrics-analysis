@@ -1,5 +1,3 @@
-# from sklearn.decomposition import NMF, LatentDirichletAllocation
-# from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import nltk
 import polars as pl
 from nltk.corpus import stopwords
@@ -23,6 +21,7 @@ lemmatizer = WordNetLemmatizer()
 
 def tokenize(x):
     tokens = [lemmatizer.lemmatize(i.lower()) for i in word_tokenize(x) if len(i) > 3]
+    tokens = [i for i in tokens if i not in ["chorus", "verse", "pre-chorus"]]
     return [word for word in tokens if word not in stopwords.words("english")]
 
 
