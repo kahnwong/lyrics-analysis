@@ -1,5 +1,5 @@
 mutagen==1.46.0
-nltk==3.8.1
+nltk==3.9.4
 polars==0.17.15
 pyarrow
 pydantic==1.10.7
